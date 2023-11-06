@@ -5,13 +5,6 @@ local default_plugins = {
   "nvim-lua/plenary.nvim",
 
   {
-    "AlphaTechnolog/pywal.nvim",
-    init = function()
-      require("pywal").setup()
-    end
-  },
-
-  {
     "NvChad/base46",
     branch = "v2.0",
     build = function()
